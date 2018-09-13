@@ -1,6 +1,5 @@
 // ==UserScript==
 // @name         Bandcamp Floating Player
-// @downloadURL  https://github.com/t57/Ob8N9yS7epndNnZkygdl/blob/master/bandcamp.js
 // @namespace
 // @version      0.1
 // @description
