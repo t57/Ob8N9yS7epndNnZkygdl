@@ -1,12 +1,13 @@
 // ==UserScript==
 // @name         Bandcamp Floating Player
 // @namespace
-// @version      0.2
+// @version      0.3
 // @description
 // @author       t57
 // @match        https://*.businesscasual.biz/album/*
 // @match        https://*.bandcamp.com/album/*
 // @grant        none
+// @nocompat     Chrome
 // ==/UserScript==
 
 (function() {
@@ -34,7 +35,7 @@
         var numbers = color.substr(numbersStart, numbersEnd - numbersStart);
 
         var rgbArray = Function("return ["+numbers+"]")();
-        
+
         function shift(x) { return x - Math.floor((x-128)/5); }
         rgbArray = rgbArray.map(shift);
 
