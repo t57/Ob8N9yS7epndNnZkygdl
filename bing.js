@@ -4,7 +4,7 @@
 // @version      0.1
 // @description
 // @author       t57
-// @match        https://www.bing.com/
+// @match        https://www.bing.com/*
 // @grant        none
 // ==/UserScript==
 
