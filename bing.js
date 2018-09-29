@@ -1,5 +1,5 @@
 // ==UserScript==
-// @name         Bing Improvement Script
+// @name         Bing Fixer
 // @namespace
 // @version      0.2
 // @description
