@@ -1,7 +1,7 @@
 // ==UserScript==
-// @name         Bing Remove Bottom Bar
+// @name         Bing Improvement Script
 // @namespace
-// @version      0.1
+// @version      0.2
 // @description
 // @author       t57
 // @match        https://www.bing.com/*
@@ -11,5 +11,13 @@
 (function() {
     'use strict';
 
-    document.getElementById("hp_bottomCell").style.display = "None";
+    var elt;
+    
+    // Remove bottom bar from main page
+    elt = document.getElementById("hp_bottomCell");
+    if (elt) elt.style.display = "None";
+    
+    // Remove arbitrary width constraint
+    elt = document.getElementById("hp_container");
+    if (elt) elt.style.minWidth = "0px";
 })();
