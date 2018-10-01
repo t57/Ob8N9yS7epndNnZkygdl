@@ -18,3 +18,4 @@ https://raw.githubusercontent.com/t57/Ob8N9yS7epndNnZkygdl/master/youtube.js
 
 ## Bugs
 - Scripts do not end in "dot user dot js".
+- Youtube needs to use a mutationObserver to disable annotations when they show up
