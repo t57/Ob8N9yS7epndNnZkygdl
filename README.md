@@ -1,19 +1,19 @@
 # Ob8N9yS7epndNnZkygdl
 Greasemonkey scripts
 
-### Bandcamp Floating Player
+### Bandcamp: Floating player
 https://raw.githubusercontent.com/t57/Ob8N9yS7epndNnZkygdl/master/bandcamp.js
 
-### Bing Fixer
+### Bing: Remove bottom bar, remove width restriction
 https://raw.githubusercontent.com/t57/Ob8N9yS7epndNnZkygdl/master/bing.js
 
-### Facebook Event Link Fixer
+### Facebook: Event link fix
 https://raw.githubusercontent.com/t57/Ob8N9yS7epndNnZkygdl/master/facebook.js
 
-### Twitter Mobile t.co Link fix
+### Twitter Mobile: t.co link replacement
 https://raw.githubusercontent.com/t57/Ob8N9yS7epndNnZkygdl/master/mobiletwitter.js
 
-### Youtube Auto Mute & "Skip Ad" (doesn't work)
+### Youtube: Turn off annotations
 https://raw.githubusercontent.com/t57/Ob8N9yS7epndNnZkygdl/master/youtube.js
 
 ## Bugs
