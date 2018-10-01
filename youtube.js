@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Youtube
 // @namespace
-// @version      0.2
+// @version      0.3
 // @description  Turn off annotations
 // @author       t57
 // @match        https://www.youtube.com/watch*
@@ -22,9 +22,13 @@
         return; // no err
     }
 
-    var err = turnOffAnnotations();
-    if (err) console.log("Couldn't turn off annotations: "+err);
+    function main() {
+        var err = turnOffAnnotations();
+        if (err) console.log("Couldn't turn off annotations: "+err);
+    }
     
+    // wait a moment for the video to start
+    window.setTimeout(main, 1000);
     
     //// This part I haven't looked at in a while
     // I don't think I can cache the result, I don't think it updates.
