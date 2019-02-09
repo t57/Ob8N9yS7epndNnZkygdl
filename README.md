@@ -2,20 +2,19 @@
 Greasemonkey scripts
 
 ### Bandcamp: Floating player
-https://raw.githubusercontent.com/t57/Ob8N9yS7epndNnZkygdl/master/bandcamp.js
+https://raw.githubusercontent.com/t57/Ob8N9yS7epndNnZkygdl/master/bandcamp.user.js
 
 ### Bing: Remove bottom bar, remove width restriction
-https://raw.githubusercontent.com/t57/Ob8N9yS7epndNnZkygdl/master/bing.js
+https://raw.githubusercontent.com/t57/Ob8N9yS7epndNnZkygdl/master/bing.user.js
 
 ### Facebook: Event link fix
-https://raw.githubusercontent.com/t57/Ob8N9yS7epndNnZkygdl/master/facebook.js
+https://raw.githubusercontent.com/t57/Ob8N9yS7epndNnZkygdl/master/facebook.user.js
 
 ### Twitter Mobile: t.co link replacement
-https://raw.githubusercontent.com/t57/Ob8N9yS7epndNnZkygdl/master/mobiletwitter.js
+https://raw.githubusercontent.com/t57/Ob8N9yS7epndNnZkygdl/master/mobiletwitter.user.js
 
 ### Youtube: Turn off annotations
-https://raw.githubusercontent.com/t57/Ob8N9yS7epndNnZkygdl/master/youtube.js
+https://raw.githubusercontent.com/t57/Ob8N9yS7epndNnZkygdl/master/youtube.user.js
 
 ## Bugs
-- Scripts do not end in "dot user dot js".
 - Youtube needs to use a mutationObserver to disable annotations when they show up
